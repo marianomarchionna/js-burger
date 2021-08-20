@@ -131,3 +131,19 @@ main {
 .ingredient:hover {
     cursor: pointer;
 }
+/* fine main */
+/* footer */
+footer {
+    padding: 0 40px;
+    height: 10%;
+    background-color: #d33359;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#tot-price {
+    font-size: 30px;
+    font-weight: bolder;
+}

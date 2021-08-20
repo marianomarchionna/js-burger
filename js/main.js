@@ -26,6 +26,6 @@ document.getElementById('calc-price').addEventListener('click',
             priceFinal = addition + price;
         }
         
-        document.getElementById('tot-price').innerHTML = '$ ' + priceFinal.toFixed(2);
+        document.getElementById('tot-price').innerHTML = '$ ' + priceFinal;
     } 
 )

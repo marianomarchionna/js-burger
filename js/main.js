@@ -14,6 +14,11 @@ document.getElementById('calc-price').addEventListener('click',
         let priceFinal = 0;
         let coupons = ['98765QWERT', '12345ASDFG', '45678CVBNM', '65432LKJHG', '01923LAKSD'];
         const discount = document.getElementById('coupon').value;
+        const nomeBurger = document.getElementById('nome').value;
+
+        if(nomeBurger == ''){
+            alert('Dai un nome al tuo burger!');
+        }
 
         if(discount != ''){
             if (coupons.includes(discount)) {

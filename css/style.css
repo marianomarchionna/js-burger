@@ -147,3 +147,55 @@ footer {
     font-size: 30px;
     font-weight: bolder;
 }
+/* media-query */
+@media screen and (max-width: 1075px) {
+    header {
+        height: 10%;
+    }
+
+    header img {
+        height: 140px;
+    }
+
+    h1 {
+        padding-top: 10px;
+        padding-left: 15px;
+    }
+
+    main {
+        height: calc(100vh - 20%);
+    }
+
+    #nome {
+        font-size: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .col-left{
+        width: 100%;
+        float: none;
+    }
+
+    .ingredienti img {
+        height: 30px;
+    }
+    
+    .row span {
+        font-weight: 600;
+        margin: 0 10px;
+    }
+}
+
+@media screen and (max-width: 815px){
+    h1 {
+        padding-left: 5px;
+        font-size: 25px;
+    }
+} 
+
+@media screen and (max-width: 657px){
+    h1 {
+        font-size: 20px;
+    }
+} 
